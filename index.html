@@ -1,85 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
 
-    <title>HTML/CSS Wireframe Intergration </title>
-</head>
-<body>
-   <!--  -->
+    <title>HTML/CSS Wireframe Intergration</title>
+  </head>
+  <body>
+    <!--  -->
     <header id="home">
-        <!-- Navbar -->
-    <nav>
+      <!-- Navbar -->
+      <nav>
         <div class="navleft">SheltonCoder</div>
         <div class="navright">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#duck">Talk to the duck</a></li>
-                <li><a href="#emergency">Emergency Kit</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#duck">Talk to the duck</a></li>
+            <li><a href="#emergency">Emergency Kit</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
         </div>
-    </nav>
+      </nav>
     </header>
     <!-- Home  -->
     <main>
-        <section id="home">
-            <h1>Standard HTML & CSS Wireframe </h1>
-            <p>.. this is how i learn how to structure my page .At the end of
-                this workshop you will have created your first little blog! In the
-                process you will get to know a few concepts and ressources, that will
-                help you along your coding Boot Camp. Feel free to fill this page with
-                your own text, add your personal style to it and make it yours!</p>
-                </section>
-        <section id="duck">
-            <div class="text">
-                <h2>Make Sure the Page follows Your Structure </h2>
-                <p>It's important to adhere to this basic structure to ensure that your HTML document is well-formed and interpretable by
-                browsers. However, you can expand upon this structure by incorporating additional HTML elements and attributes to create
-                more complex webpages with enhanced functionality and styling.</p>
-                <button>Find More </button>
-            </div>
-            <div class="image">
-                <a href="#">sheltoncoder</a>
-                <img src="https://images.unsplash.com/photo-1520085601670-ee14aa5fa3e8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGNvZGluZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60" alt="Computer on a desk">
-            </div>
+      <section id="home">
+        <h1>Standard HTML & CSS Wireframe</h1>
+        <p>
+          .. this is how i learn how to structure my page .At the end of this
+          workshop you will have created your first little blog! In the process
+          you will get to know a few concepts and ressources, that will help you
+          along your coding Boot Camp. Feel free to fill this page with your own
+          text, add your personal style to it and make it yours!
+        </p>
+      </section>
+      <section id="duck">
+        <div class="text">
+          <h2>Make Sure the Page follows Your Structure</h2>
+          <p>
+            It's important to adhere to this basic structure to ensure that your
+            HTML document is well-formed and interpretable by browsers. However,
+            you can expand upon this structure by incorporating additional HTML
+            elements and attributes to create more complex webpages with
+            enhanced functionality and styling.
+          </p>
+          <button>Find More</button>
+        </div>
+        <div class="image">
+          <a href="#">sheltoncoder</a>
+          <img
+            src="https://images.unsplash.com/photo-1520085601670-ee14aa5fa3e8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGNvZGluZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+            alt="Computer on a desk" />
+        </div>
+      </section>
+      <section id="emergency">
+        <h2>In Case Of Emergency Click on</h2>
+        <section class="grid1">
+          <article><a href="">Discord</a></article>
+          <article><a href="">Stack Overflow</a></article>
+          <article><a href="">MDN</a></article>
+          <article><a href="">W3</a></article>
+          <article><a href="">Medium</a></article>
+          <article><a href="">Podcast</a></article>
         </section>
-        <section id="emergency">
-            <h2>In Case Of Emergency Click on </h2>
-            <section class="grid1">
-                <article><a href="">Discord</a></article>
-                <article><a href="">Stack Overflow</a></article>
-                <article><a href="">MDN</a></article>
-                <article><a href="">W3</a></article>
-                <article><a href="">Medium</a></article>
-                <article><a href="">Podcast</a></article>
-            </section>
-        </section>
-        <!-- Contact Form  -->
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <form class="contact-us">
-                <label for="name">Name</label>
-                <input type="text" name="name" id="name" placeholder="Name">
-                <label for="email">Email</label>
-                <input type="text" name="email" id="email" placeholder="Email">
-                <label for="message">Message</label>
-                <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
-                <button>Send Message</button>
-            </form>
-        </section>
+      </section>
+      <!-- Contact Form  -->
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <form class="contact-us">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" placeholder="Name" />
+          <label for="email">Email</label>
+          <input type="text" name="email" id="email" placeholder="Email" />
+          <label for="message">Message</label>
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Message"></textarea>
+          <button>Send Message</button>
+        </form>
+      </section>
     </main>
     <!-- Footer -->
     <footer>
-        Copyright © 2023&nbsp&nbsp
-        <i class="fa-brands fa-github"></i>
-            <a href="https://github.com/SheltonCoder">sheltoncoder</a>
+      Copyright © 2023&nbsp&nbsp
+      <i class="fa-brands fa-github"></i>
+      <a href="https://github.com/SheltonCoder">sheltoncoder</a>
     </footer>
-</body>
+  </body>
 </html>
